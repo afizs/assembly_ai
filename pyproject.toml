@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "assembly_ai_plus"
+version = "0.0.1"
+authors = [
+  { name="Afiz", email="itsafiz@gmail.com" },
+]
+description = "AssemblyAI Python SDK."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "validators", 
+  "typing_extensions",
+  "requests"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/afizs/assembly_ai"
+"Bug Tracker" = "https://github.com/afizs/assembly_ai/issues"

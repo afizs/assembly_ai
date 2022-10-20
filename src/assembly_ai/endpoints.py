@@ -1,0 +1,1 @@
+submit_transcript = "https://api.assemblyai.com/v2/transcript"
