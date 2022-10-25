@@ -10,9 +10,11 @@
 
 Here is the example to extract text from audio file 👇
 
+Note: Get Your Free `ASSEMBLY_AI_API_KEY` from the website
+
 ```
 import assembly_ai
-assembly_ai.api_key = YOUR_ASSEMBLY_AI_KEY
+assembly_ai.api_key = YOUR_ASSEMBLY_AI_API_KEY
 response = assembly_ai.submit_url_for_transcription(audio_url='https://bit.ly/3yxKEIY', 
                                                     sentiment_analysis=True)
 ```
@@ -28,4 +30,7 @@ Full Transcribe: You know, demons on TV like that. And and for people to expose 
 
 Sentiment Analysis Details:  [{'text': 'You know, demons on TV like that.', 'start': 387, 'end': 2347, 'sentiment': 'NEGATIVE', 'confidence': 0.5303722620010376, 'speaker': None}, {'text': 'And and for people to expose themselves to being rejected on TV or, you know, humili humiliated by Fear Factor or, you know.', 'start': 2380, 'end': 11625, 'sentiment': 'NEGATIVE', 'confidence': 0.8029202222824097, 'speaker': None}]
 ```
+
+# Contributing
+Notice a problem, open the defect and let's discuss about it. 
                                     
